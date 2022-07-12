@@ -1,0 +1,55 @@
+package ejercicio4;
+
+public class ejercicio4 {
+
+	public static void main(String[] args) {
+		
+		
+int Num = 5;
+if(Num>0) {
+	System.out.println("es positivo");
+} else {
+	System.out.println("es negativo");
+
+	}
+
+
+int Cont = 1;
+ while (Cont<3) {
+	System.out.println(Cont);
+	Cont = Cont ++ ;
+}
+
+do {
+	System.out.println(Cont);
+	Cont = Cont ++ ;
+} 
+while (Cont<3); {
+	Cont = Cont ++ ;
+}
+
+
+for(int NumFor = 1 ; NumFor<=3 ; NumFor++) {
+	System.out.println(NumFor);
+}
+
+
+var Estacion = "invierno";
+switch("estacion") {
+case "Invierno":
+System.out.println("es invierno");
+break;
+case "Verano":
+System.out.println("es verano");
+break;
+case "Primavera":
+System.out.println("es primavera");
+break;
+default:
+System.out.println("es otoño");
+
+}
+	}
+}
+
+
